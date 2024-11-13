@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box
+        {
+            width: 120px;
+            height:100px;
+            background-color: pink;
+        }
+    </style>
+    <style>
+        .custom-ul
+        {
+            list-style-type: disc;
+        }
+    </style>
+    <style>
+        .input-box
+        {
+            width:300px;
+        }
+    </style>
+    <style>
+        table
+        {
+            border-collapse: collapse;
+        }
+        th,td
+        {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h2>这是我的二级标题</h2>
+    <p>百度一分钟，听人吹牛两小时</p>
+    <h3>这是我的三级标题</h3>
+    <p>图片</p>
+    <img border="0" src="https://www.runoob.com/images/pulpit.jpg" alt="Pulpit rock" width="304" height="228">
+    <div class="box">我是粉色的盒子</div>
+    <a href="https://www.baidu.com/" target="_blank" rel="noopener">点击我可以跳转到百度</a>
+    <ul class="custom-ul">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+    </ul>
+    <input type="text" class="input-box" value="请输入内容" autofocus>
+    <button>没什么用</button>
+    <p>表格</p>
+    <table border="1">
+        <tr>
+            <th>用户名：</th>
+            <td>
+                <input type="text" class="input-box" value="请输入内容" autofocus>
+            </td>
+        </tr>
+        <tr>
+            <th>密码：</th>
+            <td>
+                <input type="text" class="input-box" value="请输入内容" autofocus>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <button>提交</button>
+                <button>重置</button>
+            </td>
+        </tr>
+    </table>
+    <p>自我介绍</p>
+    <label>性别:</label>
+    <input type="radio" id="male" name="gender" value="male" checked>
+    <label for="male">男</label>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">女</label>
+    <label for="country">城市:</label>
+    <select id="country" name="country">
+        <option value="ty">太原</option>
+        <option value="cq">重庆</option>
+        <option value="xa">西安</option>
+    </select>
+    爱好:
+    <input type="checkbox" id="subscribe" name="subscribe" checked>
+    <label for="subscribe">打游戏</label>
+    <input type="checkbox" id="subscribe" name="subscribe" checked>
+    <label for="subscribe">看电影</label>
+    <input type="checkbox" id="subscribe" name="subscribe" checked>
+    <label for="subscribe">听音乐</label>
+    <input type="checkbox" id="subscribe" name="subscribe" checked>
+    <label for="subscribe">运动</label>
+    <p>
+        目标：
+    <textarea name="" id="">我要努力加入web前端！加油！</textarea>
+    </p>
+</html>
