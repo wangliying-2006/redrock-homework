@@ -25,8 +25,10 @@
         {
             width: 400px;
             height: 30px;
+            box-sizing: border-box;
+            /*注意: 有默认的 padding*/
             border: 1px solid #ccc;
-
+            vertical-align: top;
         }
         .butn
         {
@@ -35,6 +37,7 @@
             border: 0;
             height: 30px;
             color: white;
+            vertical-align: top;
         }
     </style>
 </head>
@@ -54,8 +57,7 @@
     <div class="content">
         <img src="PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png" alt="">
         <div>
-            <input class="sear" type="text">
-            <input class="butn" type="button" value="百度一下">
+            <input class="sear" type="text"><input class="butn" type="button" value="百度一下">
         </div>
         <div class="element">
 
