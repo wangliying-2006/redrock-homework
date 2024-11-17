@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    gap: 20px;
+  }
+  .box1,.box2,.box4 {
+    align-self: center;
+  }
+  .box3,.box4{
+    align-self: flex-start;
+  }
+  .box1 {
+    height: 500px;
+    width: 320px;
+    background-color: #f99;
+    flex-shrink:0;
+  }
+  
+  .box2 {
+    height: 300px;
+    width: 320px;
+    background-color: #9f9;
+    flex-shrink: 1;
+    flex-grow: 1;
+  }
+  
+  .box3 {
+    height: 100px;
+    width: 320px;
+    background-color: #99f; 
+    margin-top: 0; 
+    flex-shrink: 1;
+  }
+  .box4 {
+    height: 600px;
+    width: 320px;
+    background-color: #f9f; 
+    flex-shrink: 2;
+  }
