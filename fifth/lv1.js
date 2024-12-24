@@ -5,13 +5,12 @@ function factorialLoop(n) {
     }
     return result;
   }
-  
-  // 测试
-  console.log(factorialLoop(1)); // 1
-  console.log(factorialLoop(2)); // 2
-  console.log(factorialLoop(3)); // 6
-  console.log(factorialLoop(4)); // 24
-  console.log(factorialLoop(10)); // 3628800
+ 
+  console.log(factorialLoop(1)); 
+  console.log(factorialLoop(2)); 
+  console.log(factorialLoop(3)); 
+  console.log(factorialLoop(4)); 
+  console.log(factorialLoop(10)); 
 
   function factorialRecursive(n) {
     if (n === 1) {
@@ -21,9 +20,8 @@ function factorialLoop(n) {
     }
   }
   
-  // 测试
-  console.log(factorialRecursive(1)); // 1
-  console.log(factorialRecursive(2)); // 2
-  console.log(factorialRecursive(3)); // 6
-  console.log(factorialRecursive(4)); // 24
-  console.log(factorialRecursive(10)); // 3628800
+  console.log(factorialRecursive(1)); 
+  console.log(factorialRecursive(2)); 
+  console.log(factorialRecursive(3)); 
+  console.log(factorialRecursive(4)); 
+  console.log(factorialRecursive(10)); 
